@@ -42,7 +42,12 @@ Bellabeat is a successful small company, but they have the potential to become a
   1. To analyze FitBit Fitness Tracker Data from thirty eligible users, in order to gain insights into how consumers use non-Bellabeat smart devices.  
   2. To focus on one of Bellabeat's product to apply these insights and guide marketing strategies and new growth opportunities for the company.
   
-_For this case study, I will focus on the Bellabeat membership program._
+*For this case study, I will focus on marketing for the membership portion of the bellabeat product line in order to:*
+  1. *Get new customer*
+  2. *Increase customer retention*
+  3. *Increase in company sales and profits (based on above two goals)*
+
+
 
 **1.2 Stakeholders**  
   - **Bellabeat Executive Team**:
@@ -53,5 +58,21 @@ _For this case study, I will focus on the Bellabeat membership program._
 
 
 ## 2. PREPARE
-**1.1 Business Task**  
+**2.1 Dataset Information**  
+**2.2 Accessibility and Usage**  
+**2.3 Dataset Organization**  
+**2.4 Dataset Integrity and Limitations**
+  1. Data link: (https://www.kaggle.com/datasets/arashnic/fitbit)
+  2. Data source: CC0: Public Domain open access crowd-sourced Fitbit datasets (https://zenodo.org/record/53894#.X9oeh3Uzaao). Preprocessed and shared on Kaggle platform by Mobius.
 
+
+## 3. PROCESS
+
+
+## 4. ANALYZE
+
+
+## 5. SHARE
+
+
+## 6. ACT
