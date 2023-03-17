@@ -407,6 +407,7 @@ FROM Case_Study_2_Fitabase_Data.daily_activity;
 2. Even if a user was considered bed-ridden, their body would spend calories. According to a [healthline](https://www.healthline.com/health/calories-burned-sleeping#Determining-how-many-calories-you-burn) article, average person of 56 kg, burns 38 calories per hour sleeping. Therefore, minimum calories spent by a user if resting/sleeping all day (24 hours) would be atleast more than 24 x 38 = 912 calories. 
 3. SedenatryMinutes is the time spent in minutes while not moving at all for more than 10 minutes consecutively. This includes the time spent sitting and sleeping (for devices which do not track sleep data). Therefore, even if a user is very active for 12 hours of the day, they do rest for some minutes. Hence, SedentaryMinutes cannot be 0. 
 4. All the maximum values like TotalSteps=36019 and Calories=4900 indicate an outlier with a very active lifestyle, mostly indicating an athelete or someone who might have run a marathon. 
+
 **NOTE:** SedentaryMinutes and Calories are measured the entire day even when the device is not worn. Therefore, according to the [fitabase.com](https://community.fitbit.com/t5/Other-Charge-Trackers/sedentary-minutes/td-p/3372621) default SedentaryMinutes are 1440 for every Fitbit device. 
 
 **INFERENCES**
@@ -447,22 +448,54 @@ ORDER BY 1,2;
 3. All these rows were removed except for the one row where the ActivityFLAG = TRUE. 
 
 ```
-SELECT *
+SELECT 
+  Id,
+  ActivityDate, 
+  TotalSteps, 
+  VeryActiveMinutes, 
+  FairlyActiveMinutes, 
+  LightlyActiveMinutes, 
+  SedentaryMinutes, 
+  ROUND(SedentaryMinutes/60) AS SedentaryHours,
+  Calories, 
+FROM `Case_Study_2_Fitabase_Data.daily_activity`
+
+EXCEPT DISTINCT
+
+SELECT 
+  Id,
+  ActivityDate, 
+  TotalSteps, 
+  VeryActiveMinutes, 
+  FairlyActiveMinutes, 
+  LightlyActiveMinutes, 
+  SedentaryMinutes, 
+  ROUND(SedentaryMinutes/60) AS SedentaryHours,
+  Calories, 
 FROM `Case_Study_2_Fitabase_Data.daily_activity`
 WHERE 1=1
 AND TotalSteps=0
-OR Calories=0
+OR Calories<912
 OR SedentaryMinutes=0
+OR SedentaryMinutes=1440
 
-EXCEPT DISTINCT 
+EXCEPT DISTINCT
 
-SELECT *
+SELECT 
+  Id,
+  ActivityDate, 
+  TotalSteps, 
+  VeryActiveMinutes, 
+  FairlyActiveMinutes, 
+  LightlyActiveMinutes, 
+  SedentaryMinutes, 
+  ROUND(SedentaryMinutes/60) AS SedentaryHours,
+  Calories, 
 FROM `Case_Study_2_Fitabase_Data.daily_activity`
 WHERE 1=1
-AND SedentaryMinutes=1440
+AND Id=6290855005
+AND ActivityDate='2016-04-23'
 ORDER BY 1,2;
-
-
 ```
 
 ```
@@ -498,6 +531,7 @@ AND TotalSteps=0;
 
 # rows in new table = 868
 ```
+
 **- hourly_calories/ hourly_steps/ hourly_intensities tables**
 
 ```
