@@ -1,3 +1,4 @@
+![BellabeatLogo](https://user-images.githubusercontent.com/115209534/226958053-0e822444-2b52-4b56-aa2d-5f94bda66985.png)
 # Bellabeat Data Analytics Case Study - How Can a Wellness Technology Company Play It Smart?
 
 ***Created By:*** **Simar Bhatt**
