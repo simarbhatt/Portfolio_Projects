@@ -5,7 +5,7 @@
 
 ***Created On:*** **16th March 2023**
 
-***Tools Used:*** **Google Cloud Console - Bigquery, Sheets, Looker Studio, Github**
+***Tools Used:*** **Google Cloud Console - BigQuery, Sheets, Looker Studio, GitHub**
 
 ## Scenario 
 This is a Capstone project of Google Data Analytics Professional Certificate Course. 
@@ -143,9 +143,9 @@ Total number of users who tracked various fitness parameters (Activities - Steps
 
 Spreadsheets and SQL was used for data analyse on **Google Cloud Console** 
   - For Data Transformation & Basic Visualization: **Google Sheets**
-  - For Data Manipulation, Exploration, & Analysis: **SQL Bigquery**. New project was named "Google Analytics Project" and dataset was named - "Case_Study_2_Fitabase_Data". Each table uploaded from the original dataset was renamed as mentioned under the header 2.3.
+  - For Data Manipulation, Exploration, & Analysis: **SQL BigQuery**. New project was named "Google Analytics Project" and dataset was named - "Case_Study_2_Fitabase_Data". Each table uploaded from the original dataset was renamed as mentioned under the header 2.3.
   - For Data Visualization: **Google Data Studio/Looker Studio** 
-  - For Data Presentation: **Github**
+  - For Data Presentation: **GitHub & Kaggle** 
 
 <!-- **3.2 Data Integrity**
 To ensure data integrity, original files of the datasets were kept. Copies of .csv files were uploaded on Sheets and Bigquery. 
