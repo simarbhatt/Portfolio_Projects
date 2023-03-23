@@ -675,7 +675,7 @@ Users were categorised based on the number of days Fitbit was used - This inform
 
 ### 2. Activity Minutes
 
-The **[WHO]**(https://www.who.int/news-room/fact-sheets/detail/physical-activity) **recommends that people complete atleast 150 minutes of moderate activity a week.** This averages to ~20 minutes of moderate activity/day. Users were categorised based on Physical Activity Minutes metric. Very Active Minutes and Fairly Active Minutes were added to Physical Activity Minutes (PA Minutes), to determine each user's daily average of Physically Active Minutes. If PAMinutes >= 20 minutes/day, users were considered to have met this metric. If it was <20 minutes/day, they were consider not meeting the CDC guidelines. 
+**[WHO](https://www.who.int/news-room/fact-sheets/detail/physical-activity)** recommends that people complete atleast 150 minutes of moderate activity a week.** This averages to ~20 minutes of moderate activity/day. Users were categorised based on Physical Activity Minutes metric. Very Active Minutes and Fairly Active Minutes were added to Physical Activity Minutes (PA Minutes), to determine each user's daily average of Physically Active Minutes. If PAMinutes >= 20 minutes/day, users were considered to have met this metric. If it was <20 minutes/day, they were consider not meeting the CDC guidelines. 
 
 1. less than 20 mins = physically_inactive
 2. 20 to 30 mins = physically_active
@@ -683,7 +683,7 @@ The **[WHO]**(https://www.who.int/news-room/fact-sheets/detail/physical-activity
 
 ### 3. Steps
 
-[Studies](https://www.nih.gov/news-events/nih-research-matters/number-steps-day-more-important-step-intensity) show that **higher daily step counts link to better health**, even more than the Physically Active Minutes. Contrary to popular belief that 10,000 steps is the benchmark needed a day, [studies](https://karencollinsnutrition.com/10000-step-goal-5-key-questions/) discuss that, health benefits of step couunt varies according to age and user health. Therefore, based on Daily Total Steps, users were categorised as:   
+[Studies](https://www.nih.gov/news-events/nih-research-matters/number-steps-day-more-important-step-intensity) show that **higher daily step counts link to better health**, even more than the Physically Active Minutes. Contrary to popular belief that 10,000 steps are the benchmark, [studies](https://karencollinsnutrition.com/10000-step-goal-5-key-questions/) discuss that health benefits of step count varies according to age and users' health. Therefore, based on Daily Total Steps, users were categorised as:   
   
 1. less than 5000 steps = inactive
 2. 5000 to 7499 steps = less_active 
