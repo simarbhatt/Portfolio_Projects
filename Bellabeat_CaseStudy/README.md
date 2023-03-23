@@ -17,10 +17,10 @@ Bellabeat is a successful small company, but they have the potential to become a
 
 ## About the Company
 
-[Bellabeat Inc.](https://bellabeat.com/) is a Silicon Valley company building tech-powered wellness products for women. It is a go-to wellness brand of health-focused smart jewelry-products and services for women. It was founded by **Urška Sršen** and **Sando Mur** in **2013**, with the vision to inspire and inform wowen around the world using beuatifully designed technology. Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women. Bellabeat collect data on **activity (steps, distance, calories, physical activities), sleep, stress, and reproductive health** through its wearables and accompanying products. It  helps women better understand how their bodies work and make healthier choices. Since 2016, Bellabeat is revolutionizing the FemTech space with its innovate smart jewelry products. 
+[Bellabeat Inc.](https://bellabeat.com/) is a Silicon Valley company building tech-powered wellness products for women. It is a go-to wellness brand of health-focused smart jewelry-products and services for women. It was founded by **Urška Sršen** and **Sando Mur** in **2013**, with the vision to inspire and inform women around the world using beautifully designed technology. Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women. Bellabeat collect data on **activity (steps, distance, calories, physical activities), sleep, stress, and reproductive health** through its wearables and accompanying products. It  helps women better understand how their bodies work and make healthier choices. Since 2016, Bellabeat is revolutionizing the FemTech space with its innovate smart jewelry products. 
 
 **Products:**
-  1. **Leaf (Urban & Chakra)** - Health-tracking jewelry; Can be worn as a bracelet, necklace or clip; Connects to Bellabeat app to track daily wellness. ***USP- Asthetically pleasing, no screen display and upto 6 months of battery backup (No charging required!).*** 
+  1. **Leaf (Urban & Chakra)** - Health-tracking jewelry; Can be worn as a bracelet, necklace or clip; Connects to Bellabeat app to track daily wellness. ***USP- Aesthetically pleasing, no screen display and upto 6 months of battery backup (No charging required!).*** 
   2. **Time** - Classic wellness tracker in the form of an analog watch; Connects to the Bellabeat app. 
   3. **Spring** - A smart water bottle powered by AI that tracks daily water intake; Connects to the Bellabeat app to track the hydration levels.  
   4. **Bellabeat app** - The Bellabeat app provides users with health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. The Bellabeat app connects to their line of smart wellness products.
@@ -31,13 +31,13 @@ Bellabeat is a successful small company, but they have the potential to become a
 **Business Model:** DTC
 
 **Selling platforms:**
-  1. Online retailers like Amazon, Ebay, Shopify
+  1. Online retailers like Amazon, E-bay, Shopify
   2. Own webstore
 
 **Marketing platforms:**
   1. **ATL** - Radio, TV, Print, OOH (Billboards)
   2. **BTL** - Video ads on Youtube & Google Display Network
-  3. **TTl** - Digital Marketing Platforms - Google Search, Facebook, Instagram & Twitter
+  3. **TTL** - Digital Marketing Platforms - Google Search, Facebook, Instagram & Twitter
 
 
 ## 1. ASK 
@@ -45,7 +45,7 @@ Bellabeat is a successful small company, but they have the potential to become a
   1. To analyze Fitbit Fitness Tracker Data from thirty eligible users, in order to gain insights into how consumers use non-Bellabeat smart devices.  
   2. To focus on one of Bellabeat's product to apply these insights and guide marketing strategies and new growth opportunities for the company.
   
-*For this case study, I will focus on marketing for the Bellabeat app and membership portion of the bellabeat product line in order to:*
+*For this case study, I will focus on marketing for the Bellabeat app and membership portion of the Bellabeat product line in order to:*
   1. *Help get new customer*
   2. *Help increase customer retention by improving user experience*
   3. *Overall, help increase in company sales and profits*
@@ -66,7 +66,7 @@ Bellabeat is a successful small company, but they have the potential to become a
 1. **Data link** - https://www.kaggle.com/datasets/arashnic/fitbit
 2. **Data source** - Preprocessed and shared on Kaggle platform by Mobius. It contains personal fitness tracker data from over thirty FitBit users who have given consent to use their data.
 3. **Metadata:**  - [Metadata](https://docs.google.com/spreadsheets/d/1FPTn2nm8lWLAFDUlbRtW91OB5bUqDKDyCT6997yA-4I/edit?usp=sharing) is available in the form of 18 .CSV files. However, the tables found relevant to analysis were only 5 - daily_activity, hourly_calories, hourly_steps, hourly_intensities and daily_sleep. Reason for the elimination of other tables is given under the Section 2.3.  
-4. **Preparation** - Downloaded the datasets using the Kaggle link given above --> Previewed and renamed in Google Sheets --> Uploaded the dataset in Bigquery. 
+4. **Preparation** - Downloaded the datasets using the Kaggle link given above --> Previewed and renamed in Google Sheets --> Uploaded the dataset in BigQuery. 
 
 **2.2 Dataset Credibility (ROCCC)**  
 1. **Reliability** - Open-access dataset made available through Kaggle, with verified source. 
@@ -82,7 +82,7 @@ Federica Laricchia in Sep 6, 2022 at [Statista website](https://www.statista.com
 2.  **Insufficient data**
     - The time period for data collection was relatively short (only 31 days). A longer collection time would have been beneficial to avoid a potential sampling bias. This data is most likely not enough to make conclusions on fitness trends, and is therefore, not enough to drive business decisions. 
 3. **Incomplete data**
-    - **Inconsistent no. of users**: Likely reason for the inconsistent no. of users is the varient of Fitbit used. Not all variants of device collect heartrate and sleep data. (As shown in the code and output below)
+    - **Inconsistent no. of users**: Likely reason for the inconsistent no. of users is the variant of Fitbit used. Not all variants of device collect heartrate and sleep data. (As shown in the code and output below)
     - **Inconsistency in data tracker for hours per day**: User data for few hours of the day are missing. Reasons for these could be that some users might not have been wearing or reporting their tracking information every day, implying their watches may have been off for some time (like for charging!). 
     - It was hard to normalize the data because of the lack of information about fitness values calculations and also due to the fact that, fitness devices assumed the baseline values like Calories and Sedentary Minutes even when not in use. Therefore, the analysis was performed on raw data.
 <!--
@@ -133,9 +133,9 @@ Total number of users who tracked various fitness parameters (Activities - Steps
 5. **Missing demographic details**
     - Information on gender, age, ethnicity and race of the users is missing which causes ambiguity. These limitations will lead to data bias. 
 
-***However, the data is still usable to start seeing trends in users' days that could help to improve bellabeat's user experience.***
+***However, the data is still usable to start seeing trends in users' days that could help to improve Bellabeat's user experience.***
 
-**NOTE:** For this analysis, the CSV files tracking information by the minute were not utilized as that level of detail is not necessary for the bigger picture analysis. Additionally, the MET (Metabolic equivalent of task) data was not used as this information is useful only for comparison at individual user level. MET data shows a user their level of exertion from a baseline but cannot really be used as a comparison in-between users. Therefore, this data is not necessary for analysis. Heartrate data is also eliminated from the analysis because the recorded data does not give information of the resting heartrates of the users which is necessary for comparison and also due to the limited no. of users (14 users). Moreover, the weight log data is irreleavent for the purpose of analysis due to limited no. of total users (7 users). 
+**NOTE:** For this analysis, the CSV files tracking information by the minute were not utilized as that level of detail is not necessary for the bigger picture analysis. The MET (Metabolic equivalent of task) data was not used as it is measurable only at individual user level and no conclusions could be drawn for a sample of population as whole. Therefore, this data is not used for analysis. Heartrate data is also eliminated from the analysis because the recorded data does not give information of the resting heartrates of the users which is necessary for comparison and also due to the limited no. of users (14 users). Moreover, the weight log data is irrelevant for the purpose of analysis due to limited no. of total users (7 users). 
 
 
 ## 3. PROCESS
@@ -157,9 +157,9 @@ Samples size, margin of error, confidence rate-->
 ### 3.2 Data Manipulation
   1. **Data Transformation** - Both Sheets and SQL was used to convert the data types. 
       - ActivityDate was already in correct DATE format. 
-      - ActivityHour had inconsistent datetime format and hence was convered into YYYY-MM-DD HH:MM:SS in Sheets. While uploading the table on Bigquery, this column data type was recognised in TIMESTAMP format. 
-      - SleepDay was convered into YYYY-MM-DD HH:MM:SS in Sheets. While uploading the table on Bigquery, this column data type was recognised in TIMESTAMP format. 
-      - All other columns of the tables were consistent in their data types when uploaded on the Bigquery. Therefore, they did not require any data type transformations. 
+      - ActivityHour had inconsistent datetime format and hence was converted into YYYY-MM-DD HH:MM:SS in Sheets. While uploading the table on BigQuery, this column data type was recognised in TIMESTAMP format. 
+      - SleepDay was converted into YYYY-MM-DD HH:MM:SS in Sheets. While uploading the table on BigQuery, this column data type was recognised in TIMESTAMP format. 
+      - All other columns of the tables were consistent in their data types when uploaded on the BigQuery. Therefore, they did not require any data type transformations. 
 
   2. **Table Information** 
 Basic information of the tables (No. of rows and schema) was viewed before data manipulation to get the overview of the type of data to be analysed. 
@@ -478,7 +478,7 @@ ORDER BY 1,2
 
 **NOTE:** SedentaryMinutes and Calories are measured the entire day even when the device is not worn. According to the [fitabase.com](https://community.fitbit.com/t5/Other-Charge-Trackers/sedentary-minutes/td-p/3372621), default SedentaryMinutes are 1440 per day for every Fitbit device. 
 
-1. Minimum values are inconsistent with usage of smart device. It is possibe that either users did not wear the Fitbit on some days or removed it too soon.
+1. Minimum values are inconsistent with usage of smart device. It is possible that either users did not wear the Fitbit on some days or removed it too soon.
 2. TotalSteps CANNOT be zero if the device was used AND the user was capable of walking (eliminating extreme scenarios for the purpose of analysis). (**TotalSteps<>0**)
 3. Even if a user was sedentary entire day, their body would spend Calories and count Sedentary minutes. According to a [healthline](https://www.healthline.com/health/calories-burned-sleeping#Determining-how-many-calories-you-burn) article, average person of 56 kg, burns 38 calories per hour sleeping. Therefore, minimum calories spent by a user if resting/sleeping all day (24 hours) would be atleast be approximately 24 x 38 = 912 calories. **(Calories<>0)**
 4. To filter out these inconsistencies, outlier data was manually checked and a pattern was observed. Rows in which either TotalSteps=0 OR SedentaryHours=24 OR SedentaryHours=0, the other parameters like VeryActive/Fairly/Light ActiveMinutes were also 0. 
@@ -499,9 +499,9 @@ ORDER BY 1,2;
 
 ![image](https://user-images.githubusercontent.com/115209534/226498417-b11f5c9b-a9d5-4dfa-b212-bd1f0c0ffd82.png)
 
-_Based on this oberservation, it was assumed that the Fitbit was not worn if TotalSteps=0 OR SedentaryHours=24 OR SedentaryHours=0, Calories=0._ 
+_Based on these observation, it was assumed that the Fitbit was not worn if TotalSteps=0 OR SedentaryHours=24 OR SedentaryHours=0, Calories=0._ 
 
-5. All the maximum values like TotalSteps=36019 and Calories=4900 indicated an outlier with a very active lifestyle, like an athelete. Therefore, these were included in the analysis to prevent potential bias. 
+5. All the maximum values like TotalSteps=36019 and Calories=4900 indicated an outlier with a very active lifestyle, like an athlete. Therefore, these were included in the analysis to prevent potential bias. 
 
 To eliminate the days when Fitbit was NOT USED but left SWITCHED ON (data was automatically synced), daily_data_1 table was filtered for **TotalSteps<>0** AND **Calories<>0** AND **SedentaryHours <>0** AND **SedentaryHours<>24**. 
 
@@ -696,12 +696,12 @@ Users were categorised based on the number of days Fitbit was used - This inform
 **INSIGHTS GENERATED**
 
 1. **97% users used the Fitbit Smart Device for more than 2 weeks**. Upon breakout, about 57% users were consistent with the Fitbit use for more than 4 weeks. 
-2. On the whole, **~65% users met the CDC metric of atleast 150 PA Mintes/week** or 20 minutes per day. Out of that, approximately **54% users were physically very active** and they overachieved the CDC recommended metric by spending > 30min per day on physical activities. However, approximately **35% users were physically inactive** and did not meet the physical activitiy metric.  
+2. On the whole, **~65% users met the CDC metric of atleast 150 PA Minutes/week** or 20 minutes per day. Out of that, approximately **54% users were physically very active** and they overachieved the CDC recommended metric by spending > 30min per day on physical activities. However, approximately **35% users were physically inactive** and did not meet the physical activity metric.  
 3. Approximately **25% users met the 10000 daily average steps mark**, but only 9% users walked more than 12000 steps on average every day and hence were considered to be very active. However, there were still many users who did not reach 10000 steps/day. **57% of the users were moderately active** by walking > 7500 steps everyday and **~21% of the users were completely inactive**, taking less than 5000 steps. 
 
 ### 4. Calories
 
-User grouping based on calories burned was difficult without additionaly information on user's height, weight, health goals and other details. Additonally, **calories are burned even during sleep/resting.** According to a [healthline](https://www.healthline.com/health/calories-burned-sleeping#Determining-how-many-calories-you-burn) article, average person of 56 kg, burns 38 calories per hour sleeping. Therefore, minimum calories spent by an average user per day (24 hours) would be atleast be approximately 24 x 38 = 912 calories. 
+User grouping based on calories burned was difficult without additional information on user's height, weight, health goals and other details. Additionally, **calories are burned even during sleep/resting.** According to a [healthline](https://www.healthline.com/health/calories-burned-sleeping#Determining-how-many-calories-you-burn) article, average person of 56 kg, burns 38 calories per hour sleeping. Therefore, minimum calories spent by an average user per day (24 hours) would be atleast be approximately 24 x 38 = 912 calories. 
 
 ### 5. Sleep
 
@@ -709,7 +709,7 @@ Hours of sleep varies for each person based on multiple factors like day of the 
 
 **NOTE:** Sleep and Calories analysis are discussed in the later part of the report. 
 
-**NOTE:** Total Minutes of the day, Missing Minutes of the day and Total Time In Bed were not calculated and/or considered for this analysis because there were data discrepencies for users who also tracked sleep time. 
+**NOTE:** Total Minutes of the day, Missing Minutes of the day and Total Time In Bed were not calculated and/or considered for this analysis because there were data discrepancies for users who also tracked sleep time. 
 For instance, (VeryActiveMinutes + FairlyActiveMinutes + LightlyActiveMinutes + SedentaryMinutes + TotalMinutesAsleep or TotalTimeInBed) > 1440, which was NOT POSSIBLE (24 h x 60 min = 1440 minutes). Further to the lack of information on how the minutes are calculated in Fitbit and apparent overlap between SedentaryMinutes and TotalTimeInBed, above mentioned parameters were excluded. 
 
 
@@ -730,9 +730,9 @@ Sample correlation coefficient **"r" measures the strength and direction of the 
 
 Therefore, correlation between various parameters were observed by calculating the r value and then graphing them (Trendline = R<sup>2</sup>). **Negative values between -1 (Red colour) to 0 (Yellow color) show negative correlation and position values from 0 to 1 (Green color) show positive correlation.**
 
-These basic calulcations were performed in [Google Sheets](https://docs.google.com/spreadsheets/d/1z5vwcx0YT5w2KEgtC7SbMa180G8nw5gjy63FEiuymfk/edit?usp=sharing) because BigQuery did not have this feature in free version and although Data Studio can show a best fit trendline, it does not calculate the R<sup>2</sup> value. 
+These basic calculations were performed in [Google Sheets](https://docs.google.com/spreadsheets/d/1z5vwcx0YT5w2KEgtC7SbMa180G8nw5gjy63FEiuymfk/edit?usp=sharing) because BigQuery did not have this feature in free version and although Data Studio can show a best fit trendline, it does not calculate the R<sup>2</sup> value. 
 
-After generating the correlation matrix, scatter plots were visualized for the values in Red and Green color  
+After generating the correlation matrix, scatter plots were visualized for the values in Red and Green color.
 
 **INSIGHTS GENERATED**
 
@@ -740,20 +740,20 @@ After generating the correlation matrix, scatter plots were visualized for the v
 ![image](https://user-images.githubusercontent.com/115209534/226588486-a957f2da-4b84-40df-8d15-24d0b536f1bb.png)
 
   - Steps had a positive correlation with Calories and Total Active Minutes with positive R<sup>2</sup> value, aligning with the first part of the hypothesis #1. **Some users who walked more were also physically active.** **High R<sup>2</sup> value of 0.5 for TotalSteps verses PAMinutes** also indicated that users were more inclined in the physical activities involving steps like running, playing sports and high intensity workouts. 
-  - However, there was **no correlation between TotalSteps and SedenatryMinutes**, as against to the second part the hypothesis #1. Graph showed that many users walked more than 10000 and still had higher sedentary hours ranging from 7 to 20 hours. From this, it could be concluded that many users with non-sitting jobs also followed a sedenatry lifestyle. This also showed that most users were involved in walking than higher intensity physical activities. 
+  - However, there was **no correlation between TotalSteps and SedenatryMinutes**, as against to the second part the hypothesis #1. Graph showed that many users walked more than 10000 and still had higher sedentary hours ranging from 7 to 20 hours. From this, it could be concluded that many users with non-sitting jobs also followed a sedentary lifestyle. This also showed that most users were involved in walking than higher intensity physical activities. 
   - When compared Calories expenditure versus TotalSteps, R<sup>2</sup> value was 0.3. These were less correlated than otherwise assumed because people often confused correlation with causation. More steps caused more calories expenditure but the statistical association between the two is low.  
 
 #### 6.2 Correlation between Calories and Physically Active Minutes
 ![image](https://user-images.githubusercontent.com/115209534/226584245-51e0371f-58c9-4c78-b958-3be4f5e59978.png)
 
-  - **Positive correlation between Calories and Physical Activity Minutes** showed that more time spent in physical activities with moderate to high intensity, also incresed the calories burn, whereas **no correlation between Calories and Lightly Active Minutes** showed that more enegry spent in lightly activities did not cause any significant calories burn. 
+  - **Positive correlation between Calories and Physical Activity Minutes** showed that more time spent in physical activities with moderate to high intensity, also increased the calories burn, whereas **no correlation between Calories and Lightly Active Minutes** showed that more energy spent in lightly activities did not cause any significant calories burn. 
 
 #### 6.3 Correlation between Sleep Duration and Steps / Sedentary Hours
 ![image](https://user-images.githubusercontent.com/115209534/226584710-73acf9ec-f1e8-4438-88dc-e6302f402f2a.png)
 
   - Sleep duration (TotalHoursAsleep) had almost zero correlation with TotalSteps. 
-  - By plotting TotalTimeAsleep against SedentaryHours, negative trendline with R<sup>2</sup>= 0.4 was obtained. This showed significant **negative corrleation between sleep duration and sedentary lifestyle**, opposed to hypothesis #2. Users who remained sedentary for most hours slept less time sleeping verses users who slept well and were more active. This disproved the hypothesis #2. 
-  - It is commonly misunderstood that Sedentary lifestyle people sleep longer are more lazy. In the era of social media and smart devices, people spend more time on their laptops/devices, leading to less walking and more sitting BUT NOT more sleep time. 
+  - By plotting TotalTimeAsleep against SedentaryHours, negative trendline with R<sup>2</sup>= 0.4 was obtained. This showed significant **negative correlation between sleep duration and sedentary lifestyle**, opposed to hypothesis #2. Users who remained sedentary for most hours slept less time sleeping verses users who slept well and were more active. This disproved the hypothesis #2. 
+  - It is commonly misunderstood that Sedentary lifestyle people sleep longer are lazier. In the era of social media and smart devices, people spend more time on their laptops/devices, leading to less walking and more sitting BUT NOT more sleep time. 
 
 ### 7. Daily Trends of Steps, Calories, Activity Minutes and Sleep duration distributed over the Weekdays
 
@@ -761,25 +761,25 @@ Another important factor to look at for the Bellabeat Membership was to observe 
 
 ![weekday_calories](https://user-images.githubusercontent.com/115209534/226634567-70223b3c-29ad-497c-af0c-498e85356b5d.jpg)
 
-1. Overall there was not much variation in average calories burned between the days. This made sense because people burn the same amount of base calories every day.
-2. However, **most calories were burned on Tuesday followed by Saturday**. This could be because users spent time in intenstive activities on these days and were in generally more active. This disproved the initial hypothesis #3. 
+1. Overall, there was not much variation in average calories burned between the days. This made sense because people burn the same amount of base calories every day.
+2. However, **most calories were burned on Tuesday followed by Saturday**. This could be because users spent time in intensive activities on these days and were in generally more active. This disproved the initial hypothesis #3. 
 3. Least calories were burned on Thursday and Sunday respectively. 
-4. Similar to calories pattern, highest average daily steps were achieved on Tuesday, very closly followed by Saturday. 
+4. Similar to calories pattern, highest average daily steps were achieved on Tuesday, very closely followed by Saturday. 
 5. Whereas, **Sunday had, by a large margin, the lowest average value of daily steps**. 
  
 ![week_mins](https://user-images.githubusercontent.com/115209534/226636339-c2654963-b836-4540-a2cf-4f7ef440ef59.jpg)
 
 1. **Users were more active at the start of the week** i.e. PAMinutes and LightlyActiveMinutes values are higher on Monday & Tuesday. 
-2. SedengtaryMinutes decresed from Monday to Thursday indicating busy days for the users. 
+2. SedengtaryMinutes decreased from Monday to Thursday indicating busy days for the users. 
 3. **LightlyActiveMinutes were maximum on Saturday and minimum on Sunday.** 
 4. **PAMinutes > 40 on Monday, Tuesday and Saturday **showing that users were most physically active on these days. 
     
 ![week_sleep](https://user-images.githubusercontent.com/115209534/226651322-c9d9806d-0098-4afa-8301-f3fb04ae1053.jpg)
 
 1. Sleep trends were also consistent with above observations. **Users slept least on Tuesday and Thursday**. 
-2. **Sleed duration increased from Friday and maximized on Sunday**, indicating that users got more sleep during the weekend. 
+2. **Sleep duration increased from Friday and maximized on Sunday**, indicating that users got more sleep during the weekend. 
 3. However, on average, **users did not get the [CDC recommended]**(https://www.cdc.gov/sleep/about_sleep/how_much_sleep.html) **hours of sleep (~7 hours)** on 5 out of 7 weekdays. 
-4. Surprisingly, users also slept longer on Wednesday. This showed that users recharged mid-week after a rather intensi start of the week.  
+4. Surprisingly, users also slept longer on Wednesday. This showed that users recharged mid-week after a rather intensive start of the week.  
 5. **Total Hours In Bed were significantly higher on Sunday at 8.39 hours**, followed by Wednesday. This indicated that on other weekdays, users slept faster after getting in bed than on weekends. This could be due to exhaustion on the weekdays. 
 
 ### 8. Hourly Trends of Steps, Calories, Activity Minutes (Intensity).
@@ -788,7 +788,7 @@ Another important factor to look at for the Bellabeat Membership was to observe 
 
 ![hourly_intensity](https://user-images.githubusercontent.com/115209534/226819496-27c92a93-f39c-4f45-ae96-254fa6c37a33.jpg)
 
-1. Total Intensity of the hours were representation of the activity levels spents in the hour (Sedentary, Light, Physically Active). From the graph, it was observed that **more than 90% of the average total intesity of the day was spent from 5PM to 7PM**. 
+1. Total Intensity of the hours were representation of the activity levels spent in the hour (Sedentary, Light, Physically Active). From the graph, it was observed that **more than 90% of the average total intensity of the day was spent from 5PM to 7PM**. 
 2. Another relatively **high intensity period was 12 NOON to 2PM**. This might be because users get the most work done in the first half of the day (ie. before lunch).
 3. However, a **significant low was observed at 3PM**. This might indicate the resting hour post lunch. These insights were further confirmed by observing the energy spending pattern and total steps data. 
 
@@ -796,7 +796,7 @@ Another important factor to look at for the Bellabeat Membership was to observe 
 ![hourly_trends](https://user-images.githubusercontent.com/115209534/226817668-e3a00067-d37e-4131-83e0-0e3a244f8255.jpg)
 
 1. Similar to Intensity insights, **most calories were burned from 5PM to 7PM**, followed by 12 to 2PM. 
-2. Users on average burned **more than 100 calories (Reference Line) from 8AM to 8PM**, indicating these to be the most energy exhaustive hours of the day. 
+2. Users on average burned **more than 100 calories** (reference line) **from 8AM to 8PM**, indicating these to be the most energy exhaustive hours of the day. 
 3. Sudden increase in TotalIntensity from 4AM to 5AM may indicate to the sudden awake from deep sleep (3AM to 4AM) periods of users. 
 4. However, users seemed to be sedentary from 4AM to 5AM and then getting up around 6AM. **TotalSteps increased by 4X from 5AM to 6AM.**
 5. There was also a consistent dip in the values of all parameters at 3PM.
@@ -807,7 +807,7 @@ Another important factor to look at for the Bellabeat Membership was to observe 
 
 ### 6.1 Revisiting Business Task
 
-The business task was to analyse smart device usage data of non-Bellabeat smart device (Fitbit) to gain insight about the fitness device usage trends within the global smart device taregt audience, as well as to discover how to use those insights on Bellabeat products to influence future Bellabeat marketing strategies. This was done by applying the said insights to the Bellabeat App & Membership in order to maximise profits and growth for the company and to capitalize on Bellabeat’s rapidly growing consumer base in the Wellness Tech Industry. 
+The business task was to analyse smart device usage data of non-Bellabeat smart device (Fitbit) to gain insight about the fitness device usage trends within the global smart device target audience, as well as to discover how to use those insights on Bellabeat products to influence future Bellabeat marketing strategies. This was done by applying the said insights to the Bellabeat App & Membership in order to maximise profits and growth for the company and to capitalize on Bellabeat’s rapidly growing consumer base in the FemTech Industry. 
 
 ### 6.2 Insights on Trends
 
@@ -817,26 +817,26 @@ The business task was to analyse smart device usage data of non-Bellabeat smart 
 4. **~75% users did NOT meet the 10000 daily average steps** mark. More than 50% of the users had an inactive-sedentary lifestyle. 
 5. On most weekday (5 out of 7), **users slept less than the suggested minimum of 7 hours**.
 6. **Users were most active on Tuesdays** with maximum activity minutes, steps taken, and most calories burned, very closely followed by Saturday. From this, it can be concluded that **users focused more on their fitness on Saturday** as they got more time.
-7. A surprising observation was made for Wednesday. Users seemenly slept longer and spent comparately less time in physical activities. This showed that **users were more active at the start of the week and they reacharged on Wednesday**.
-8. Sunday was obviously the most rested and laid back day of the week with least steps, activity minutes and calories burned. 
+7. A surprising observation was made for Wednesday. Users seemingly slept longer and spent comparatively less time in physical activities. This showed that **users were more active at the start of the week and they recharged on Wednesday**.
+8. Sunday was obviously the most rested and laid-back day of the week with least steps, activity minutes and calories burned. 
 9. A general trend of **active hours from 8 AM to 8 PM** was observed.  
 10. **Users were most active from 5 PM to 7PM** indicating their preferred exercise/ physical activity time. 
 11. In the afternoon, **users were least active around 3PM** as the intensity levels, total steps and energy expenditures went down. 
 
 ### 6.3 Recommendations
 
-1. Bellabeat could **offer incentives** for consistent tracking, like daily and weeekly challenges, in-app competitions against friends or other users. This would increase motivation and **drive user engagement on the app**. 
+1. Bellabeat could **offer incentives** for consistent tracking, like daily and weekly challenges, in-app competitions against friends or other users. This would increase motivation and **drive user engagement on the app**. 
 2. Bellabeat could **offer Wellness-points when the users achieved the set targets**, which could be redeemed for Bellabeat merchandise, exclusive access and discounts to future products, exclusive in-app features, etc. Additionally, **offer points could be higher for higher intensity workouts**, promoting more physical activities. 
 3. Product promotions: Generated insights showed that users are less active between **8PM to 10PM**, shortly before they retire for the night. This could be used at the **ideal time for Bellabeat to schedule their advertising initiatives** for optimal results. This could allow Bellabeat to effectively reach its consumers. 
 4. Bellabeat could **increase customer retention by focussing on personalized contents** that offer value to the users. This can include nutritional advice as part of its membership, which get into detail about healthy recipes and managing calories intake. It could also have a list and videos of activities that people can do to **burn some quick calories**. The average user's lifestyle is sedentary and they might lack time and motivation for fitness. This could be a good push to exercise and burn higher calories in short periods of time. 
 5. Bellabeat could **create video content and blogs to educate its users** about the negative impacts of sedentary lifestyle and how to better it, using this as an opportunity to **promote its other products like Spring smart-bottle**. 
-6. Bellabeat could c**ustom-notify the user of the ideal time to sleep** as per the user’s fitness levels for the day. This could be paired with the bed-time reminders of any medications, sleep music or next day alarms, if the user uses these fetaures.
+6. Bellabeat could **custom-notify the user of the ideal time to sleep** as per the user’s fitness levels for the day. This could be paired with the bed-time reminders of any medications, sleep music or next day alarms, if the user uses these features.
 7. Bellabeat could **design variants of its products** according to user type. Some users look for basic fitness tracking of steps, activity/intensity and calories, whereas some prefer advance features including sleep tracking, heartrate monitoring, oxygen levels etc. 
 8. Bellabeat could **accessorise their wellness products (Leaf) with extra comfortable straps** which could be changed before sleep time. Users tend to remove their fitness bands during sleep for comfort reasons and this was user can be consistent with the data tracking. 
 
 ### 6.4 Next Steps
 
-1. It is to be noted that this is a third party data collected for another competitive smart fitness device with many limitation. 
+1. It is to be noted that this is a third-party data collected for another competitive smart fitness device with many limitations. 
 2. In order to perform a better analyse fitness trends of for use in Bellabeat products, I would suggest using a more **first-hand data collection** mode like conducting a survey of current consumers and also a survey from global consumer population. 
 
 **REFERENCES:** All the sources and studies are added at the mention of it. 
