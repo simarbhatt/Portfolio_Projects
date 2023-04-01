@@ -10,7 +10,7 @@
 ## Scenario 
 This is a Capstone project of Google Data Analytics Professional Certificate Course. 
 
-For this case study, I am a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. To answer the key business questions, I will follow the steps of the data analysis process: ask, prepare, process, analyze, share, and act.
+For this case study, I was a junior data analyst working on the marketing analyst team at Bellabeat, a high-tech manufacturer of health-focused products for women. To answer the key business questions, I followed the steps of the data analysis process: ask, prepare, process, analyze, share, and act.
 
 Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. The cofounder and CCO of Bellabeat believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. I have been asked to analyze other company's smart device data to gain insight into how consumers are using their smart devices and focus the findings on one of Bellabeat’s own products, to help guide marketing strategy for the company. I have to present my analysis and recommendations to the Bellabeat executive team. For more information, [check here](https://github.com/simarbhatt/Portfolio_Projects/files/10991301/Case-Study-2-_-How-can-a-wellness-technology-company-play-it-smart.pdf). 
 
