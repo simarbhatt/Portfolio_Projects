@@ -5,7 +5,7 @@
 
 ***Created On:*** **16th March 2023**
 
-***Tools Used:*** **Google Cloud Console - BigQuery, Sheets, Looker Studio, GitHub**
+***Tools Used:*** **Google Cloud Console - BigQuery, Sheets, Data Studio, GitHub**
 
 ## Scenario 
 This is a Capstone project of Google Data Analytics Professional Certificate Course. 
@@ -843,5 +843,5 @@ The business task was to analyse smart device usage data of non-Bellabeat smart 
 
 **ACKNOWLEDGEMENT:** I used Kate Anderson's [Kaggle report](https://www.kaggle.com/code/kander87/bellabeat-case-study-sheets-sql-data-studio) as reference for this data analysis.
 
-**ADDITIONAL DATA:** Links to google sheets are added at the source wherever mentioned and here is a link to [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/92b9d0dd-d18f-43f9-ac39-369bc4b8eff6).
+**ADDITIONAL DATA:** Links to google sheets are added at the source wherever mentioned and here is a link to [Google Data Studio Dashboard](https://lookerstudio.google.com/reporting/92b9d0dd-d18f-43f9-ac39-369bc4b8eff6).
 
